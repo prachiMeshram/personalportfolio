@@ -2,4 +2,12 @@
   background-color: #121113;
   height: 100vh;
   width: 100vw;
+}
+.main .component-container {
+  background-color: rgba(184, 192, 189, 0.598);
+  height: calc(100vh - 85px);
+  width: calc(100vw - 100px);
+  position: absolute;
+  top: 80px;
+  left: 50px;
 }/*# sourceMappingURL=main.css.map */
