@@ -1,0 +1,26 @@
+@import '../../../styles/colors.scss';
+
+.navbar-container {
+    color: $lightGray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    font-weight: bold;
+    
+    .navbar-element {
+        padding: 25px 30px 20px 30px;
+        font-size: 16px;
+        cursor: pointer;
+        &.active{
+            color: $darkTeal;
+            border-bottom: 1px $darkTeal solid;
+        }
+    }
+    .resume {
+        margin : 25px 20px 20px 30px; 
+        text-decoration: none;
+        color: $lightGray;
+    }
+}

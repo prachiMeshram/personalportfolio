@@ -1,0 +1,8 @@
+@import '../../styles/colors.scss';
+
+.button{
+    padding: 5px 10px 5px 10px;
+    border: 1px $darkTeal solid;
+    border-radius: 5px;
+    cursor: pointer;
+}

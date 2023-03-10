@@ -1,0 +1,23 @@
+.navbar-container {
+  color: #EAEAEA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  font-weight: bold;
+}
+.navbar-container .navbar-element {
+  padding: 25px 30px 20px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.navbar-container .navbar-element.active {
+  color: #0DEBE5;
+  border-bottom: 1px #0DEBE5 solid;
+}
+.navbar-container .resume {
+  margin: 25px 20px 20px 30px;
+  text-decoration: none;
+  color: #EAEAEA;
+}/*# sourceMappingURL=navBar.css.map */
