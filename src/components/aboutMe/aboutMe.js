@@ -1,17 +1,13 @@
 import React from 'react';
 import './aboutMe.css';
+import Button from '../../ulElements/button/button.js'
+import ProfilePic from '../../assets/Prachiclear.jpeg'
+import Header from '../../ulElements/header/header';
 
 function AboutMe() {
     return (
         <div className='aboutMe-container'>
-            <div className='header-container'>
-                <div className='heading-text'><h2>ABOUT ME</h2></div>
-                <div className='horizontal-line'>
-                    <div className='circle-element'></div>
-                    <div className='line-element'></div>
-                    <div className='triangle-element'></div>
-                </div>
-            </div>
+            <Header heading = {'ABOUT ME'} />
             <div className='text-image-button-container'>
                 <div className='aboutMe-text'>
                     <p>
@@ -23,8 +19,10 @@ function AboutMe() {
                     </p>
                 </div>
                 <div className='image-button-container'>
-                    <div className='image'></div>
-                    <div className='Education-button'></div>
+                    <div className='image-container'><img className='image' src= {ProfilePic} ></img></div>
+                    <div className='education-button'>
+                        <Button styledBorder={true} text={'EDUCATION'} type ={'solid'} />
+                    </div>
                 </div>
             </div>
         </div>

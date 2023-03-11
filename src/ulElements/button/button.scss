@@ -5,4 +5,19 @@
     border: 1px $darkTeal solid;
     border-radius: 5px;
     cursor: pointer;
+
+    &.solid {
+        background-color: $vdarkTeal;
+        color: $darkTeal;
+        font-weight: bold;
+        padding: 15px;
+    }
+// need to style button
+    &.styled {
+        border-top-right-radius: 60% ;
+        border-top-left-radius: 0px ;
+        border-bottom-right-radius: 0px ;
+        border-bottom-left-radius: 10px ;
+        padding: 15px 40px;
+    }
 }

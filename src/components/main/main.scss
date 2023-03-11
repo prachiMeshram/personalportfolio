@@ -9,11 +9,11 @@ $decorationLinesWidth: 100px;
     width: 100vw;
     
     .component-container {
-        background-color: rgba(184, 192, 189, 0.598);
         height: calc(100vh - $navbarHeight);
-        width: calc(100vw - $decorationLinesWidth);
+        width: calc(100vw - $decorationLinesWidth - 200px);
         position: absolute;
         top: 80px;
         left: 50px;
+        margin-left: 100px;
     }
 }

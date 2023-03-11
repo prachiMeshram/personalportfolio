@@ -5,43 +5,50 @@
     flex-direction: column;
     align-items: flex-start;
     height: 100%;
-    max-width: 100%;
-    background-color: bisque;
-    .header-container {
+    width: 100%;
+    // background-color: bisque;
+    .text-image-button-container {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        color: $darkTeal;
-        width: 90%;
-        margin-left: 100px;
-        .horizontal-line {
+        height: 100%;
+        width: 100%;
+        // background-color: cadetblue;
+
+        .aboutMe-text {
+            height: 100%;
+            width: 100%;
+            text-align: start;
+            // background-color: chocolate;
+            color: $lightGray;
+            letter-spacing: 1px;
+        }
+        
+        .image-button-container {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            width: 68%;
-            margin-left: 20px;
+            height: 100%;
+            width: 100%;
+            // background-color: rgb(151, 131, 117);
 
-            .circle-element{
-                display: flex;
-                align-items: center;
-                background-color: $darkTeal;
-                border-radius: 100%;
-                height: 5px; 
-                width: 5px; 
-            }
-    
-            .line-element {
-                width: 100%;
-                height: 1px;
-                background-color: $darkTeal;
+            .image-container {
+                height: 60%;
+                width: 50%;
+                background-color: crimson;
+                box-shadow: 10px 10px 10px $vdarkTeal;
+                
+                .image {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    filter:drop-shadow();
+                }
             }
 
-            .triangle-element {
-                margin: -2px;
-                width: 0;
-	            height: 0;
-	            border-top: 3px solid transparent;
-            	border-right: 6px solid $darkTeal;
-            	border-bottom: 3px solid transparent;
+            .education-button {
+                margin-top: 50px;
+                // background-color: darkblue;
             }
         }
     }

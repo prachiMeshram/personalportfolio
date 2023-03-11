@@ -3,4 +3,17 @@
   border: 1px #0DEBE5 solid;
   border-radius: 5px;
   cursor: pointer;
+}
+.button.solid {
+  background-color: #2E3D3C;
+  color: #0DEBE5;
+  font-weight: bold;
+  padding: 15px;
+}
+.button.styled {
+  border-top-right-radius: 60%;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+  padding: 15px 40px;
 }/*# sourceMappingURL=button.css.map */

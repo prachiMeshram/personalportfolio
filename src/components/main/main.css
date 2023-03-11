@@ -4,10 +4,10 @@
   width: 100vw;
 }
 .main .component-container {
-  background-color: rgba(184, 192, 189, 0.598);
   height: calc(100vh - 85px);
-  width: calc(100vw - 100px);
+  width: calc(100vw - 100px - 200px);
   position: absolute;
   top: 80px;
   left: 50px;
+  margin-left: 100px;
 }/*# sourceMappingURL=main.css.map */

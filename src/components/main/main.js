@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import AboutMe from "../aboutMe/aboutMe";
+import Education from "../aboutMe/education/education";
+import ContactUs from "../contactUs/contactUs";
 import LeftDecoration from "./leftDecoration/leftDecoration";
 import "./main.css"
 import Navbar from "./navbar/navbar";
@@ -15,7 +17,9 @@ function Main() {
             <Navbar/>
             {/* {Components} */}
             <div className="component-container">
-                <AboutMe />
+                {/* <AboutMe /> */}
+                {/* <Education/> */}
+                <ContactUs />
             </div>
             {/* {socialIcons} */}
             <SocialIcons/>

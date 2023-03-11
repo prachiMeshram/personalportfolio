@@ -1,0 +1,29 @@
+@import '../../../../styles/colors.scss';
+
+.content-container {
+    height: 30%;
+    color: $lightGray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // padding-bottom: 5px;
+    color: $lightGray;
+    border-bottom: 1px #8CB9B4 solid;
+    // letter-spacing: 1px;
+    &.last{
+        border-bottom: 0px;
+    }
+
+    .year {
+        width: 25%;
+        text-align: start;
+    }
+    .institute {
+        width: 70%;
+        text-align: left;
+    }
+    .description {
+        width: 90%;
+        text-align: left;
+    }
+}

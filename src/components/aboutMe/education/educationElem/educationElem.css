@@ -1,0 +1,24 @@
+.content-container {
+  height: 30%;
+  color: #EAEAEA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #EAEAEA;
+  border-bottom: 1px #8CB9B4 solid;
+}
+.content-container.last {
+  border-bottom: 0px;
+}
+.content-container .year {
+  width: 25%;
+  text-align: start;
+}
+.content-container .institute {
+  width: 70%;
+  text-align: left;
+}
+.content-container .description {
+  width: 90%;
+  text-align: left;
+}/*# sourceMappingURL=educationElem.css.map */
