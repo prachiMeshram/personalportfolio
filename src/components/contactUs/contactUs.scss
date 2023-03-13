@@ -16,6 +16,8 @@
         padding: 30px;
         width: 30%;
         background-image: linear-gradient(#151515, #374645);
+        border-left: 1px $darkTeal solid;
+        border-top: 1px $darkTeal solid;
 
         .text1{
             margin: 0;
@@ -24,21 +26,66 @@
         .text2 {
             margin-top: 0;
         }
-        .image-container{
-            background-color: #D9D9D9;
-            height: 30vh;
-            width: 70%;
+
+        .image-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .image-container{
+                background-color: #D9D9D9;
+                height: 30vh;
+                width: 70%;
+            }
         }
+       
     }
 
     .contactForm-container{
-        // display: flex;
-        // flex-direction: column;
-        // align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         height: 50vh;
         width: 50%;
         margin-left: -30px;
         margin-top: 100px;
+        font-weight: bold;
+        padding: 20px;
         background-image: linear-gradient(#374645, #151515);
+        border-right: 1px $darkTeal solid;
+        border-bottom: 1px $darkTeal solid;
+        
+        .ques-container {
+            .input-title {
+                padding: 5px 5px 5px 25px;
+                text-align: left;
+            }
+
+            .inputBox{
+                height: 5vh;
+                width: 90%;
+                margin-left: 25px;
+                border-radius: 5px;
+                background-color: $lightGray;
+            }
+            
+            .message-input {
+                height: 10vh;
+                width: 90%;
+                margin-left: 25px;
+                border-radius: 5px;
+                background-color: $lightGray;
+            }
+        }
+        
+        .button-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            .sendMessage-button {
+                width: 50%;
+            }
+        }
     }
 }

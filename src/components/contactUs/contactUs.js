@@ -9,23 +9,27 @@ function ContactUs () {
             <div className='getInTouch-container'>
                 <h3 className='text1'>Want to work together ?</h3>
                 <h1 className='text2'>Let's Get In Touch</h1>
-                <div className='image-container'></div>
+                <div className='image-wrapper'>
+                    <div className='image-container'></div>
+                </div>
             </div>
             <div className='contactForm-container'>
-                <div className='name-container'>
-                    <div className='name'>Name</div>
-                    <div className='name-input'></div>
+                <div className='name ques-container'>
+                    <div className='name input-title'>Name</div>
+                    <div className='name-input inputBox'></div>
                 </div>
-                <div className='email-container'>
-                    <div className='email'>Email</div>
-                    <div className='email-input'></div>
+                <div className='email ques-container'>
+                    <div className='email input-title'>Email</div>
+                    <div className='email-input inputBox'></div>
                 </div>
-                <div className='message-container'>
-                    <div className='message'>Message</div>
+                <div className='message ques-container'>
+                    <div className='message input-title'>Message</div>
                     <div className='message-input'></div>
                 </div>
-                <div className='sendMessage-button'>
-                    <Button styledBorder={true} text={'Send Message'} type ={'solid'} />
+                <div className='button-container' >
+                    <div className='sendMessage-button'>
+                        <Button styledBorder={true} text={'Send Message'} type ={'solid'} />
+                    </div>
                 </div>
             </div>
         </div>
