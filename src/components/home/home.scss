@@ -1,0 +1,73 @@
+@import '../../styles/colors.scss';
+
+.home-container {
+    width: 100%;
+    height: calc(100vh - 180px);
+    display: flex;
+    // flex-direction: row;
+
+    .text-box {
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: flex-start;
+        position: relative;
+        top: 10%;
+        height: 100%;
+        width: 80%;
+
+        // background-color: rgb(223, 164, 87);
+
+        .greet-text {
+            color: $darkTeal;
+            font-size:large;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .name-text {
+            font-weight: bold;
+            text-align: left;
+            color: $lightGray;
+            font-size: 50px;
+        }
+
+        .one-sentence-text {
+            color: $lightTeal;
+            font-size: xx-large;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .description-text {
+            width: 70%;
+            color: #FFFFFF;
+            text-align: left;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    .icon-container {
+        // height: 50vh;
+        width: 20%;
+        background-color: rgb(45, 166, 166);
+    }
+
+    .decoration-box {
+        // position: absolute;
+        // bottom: 0;
+        // left: 0;
+
+        .triangle-one {
+            width: 0;
+            height: 0;
+            border-right: 30px solid transparent ;
+            border-bottom: 50px solid #FFFFFF ;
+        }
+
+        .triangle-two {
+
+        }
+    }
+}

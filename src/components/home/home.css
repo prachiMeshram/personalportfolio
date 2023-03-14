@@ -1,0 +1,49 @@
+.home-container {
+  width: 100%;
+  height: calc(100vh - 180px);
+  display: flex;
+}
+.home-container .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 10%;
+  height: 100%;
+  width: 80%;
+}
+.home-container .text-box .greet-text {
+  color: #0DEBE5;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.home-container .text-box .name-text {
+  font-weight: bold;
+  text-align: left;
+  color: #EAEAEA;
+  font-size: 50px;
+}
+.home-container .text-box .one-sentence-text {
+  color: #8CB9B4;
+  font-size: xx-large;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.home-container .text-box .description-text {
+  width: 70%;
+  color: #FFFFFF;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.home-container .icon-container {
+  width: 20%;
+  background-color: rgb(45, 166, 166);
+}
+.home-container .decoration-box .triangle-one {
+  width: 0;
+  height: 0;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid #FFFFFF;
+}/*# sourceMappingURL=home.css.map */
