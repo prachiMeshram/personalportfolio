@@ -1,0 +1,28 @@
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(198, 160, 114);
+  height: 100%;
+  width: 100%;
+  color: whitesmoke;
+}
+.projects-container .vertical-strip {
+  background-color: chartreuse;
+  rotate: -90deg;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.projects-container .heading-carousel-container {
+  display: flex;
+  background-color: cornflowerblue;
+}
+.projects-container .heading-carousel-container .heading-container {
+  margin-left: 50%;
+  background-color: deeppink;
+}
+.projects-container .heading-carousel-container .project-carousel-container {
+  background-color: darkgray;
+}/*# sourceMappingURL=projects.css.map */

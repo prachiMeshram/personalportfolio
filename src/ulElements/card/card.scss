@@ -1,0 +1,19 @@
+@import '../../styles/colors.scss';
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    width: 40%;
+    color: $lightGray;
+
+    .image-container {
+        height: 45%;
+       
+        .image {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

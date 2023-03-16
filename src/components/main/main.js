@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Card from "../../ulElements/card/card";
 import AboutMe from "../aboutMe/aboutMe";
 import Education from "../aboutMe/education/education";
 import ContactUs from "../contactUs/contactUs";
@@ -8,6 +9,9 @@ import "./main.css"
 import Navbar from "./navbar/navbar";
 import RightDecoration from "./rightDecoration/rightDecoration";
 import SocialIcons from "./socialIcons/socialIcons";
+import ProfilePic from "../../assets/Prachiclear.jpeg";
+import Carousel, { CarouselItem } from "../../ulElements/carousel/carousel";
+import Projects from "../projects/projects";
 
 
 function Main() {
@@ -21,7 +25,8 @@ function Main() {
                 {/* <AboutMe /> */}
                 {/* <Education/> */}
                 {/* <ContactUs /> */}
-                <Home />
+                {/* <Home /> */}
+               <Projects />
             </div>
             {/* {socialIcons} */}
             <SocialIcons/>

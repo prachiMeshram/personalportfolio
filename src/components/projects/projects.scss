@@ -1,0 +1,33 @@
+@import '../../styles/colors.scss';
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(198, 160, 114);
+    height: 100%;
+    width: 100%;
+    color: whitesmoke ;
+
+    .vertical-strip {
+        background-color: chartreuse;
+        rotate: -90deg;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .heading-carousel-container{
+        display: flex;
+        background-color: cornflowerblue;
+
+        .heading-container {
+            margin-left: 50%;
+            background-color: deeppink;
+        }
+        .project-carousel-container {
+            background-color: darkgray;
+        }
+    }
+}

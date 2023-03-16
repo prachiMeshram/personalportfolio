@@ -1,0 +1,16 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  width: 40%;
+  color: #EAEAEA;
+}
+.card-container .image-container {
+  height: 45%;
+}
+.card-container .image-container .image {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=card.css.map */

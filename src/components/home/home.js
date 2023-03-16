@@ -1,5 +1,6 @@
 import React from "react";
 import './home.css';
+import decorationImg from '../../assets/homeDecorationCompo.svg'
 
 function Home() {
     return (
@@ -16,8 +17,9 @@ function Home() {
                 <div className="icons"></div>
             </div>
             <div className="decoration-box">
-                <div className="triangle-one"></div>
-                <div className="triangle-two"></div>
+                <img src={decorationImg} className="decoration-img"/>
+                {/* <div className="triangle-one"></div>
+                <div className="triangle-two"></div> */}
             </div>
         </div>
     )

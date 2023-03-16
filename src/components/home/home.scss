@@ -2,7 +2,7 @@
 
 .home-container {
     width: 100%;
-    height: calc(100vh - 180px);
+    height: calc(100vh - 170px);
     display: flex;
     // flex-direction: row;
 
@@ -55,19 +55,18 @@
     }
 
     .decoration-box {
-        // position: absolute;
-        // bottom: 0;
-        // left: 0;
+        position: absolute;
+        bottom: 0;
+        left: -5%;
+        display: flex;
+        height: 35vh;
 
-        .triangle-one {
-            width: 0;
-            height: 0;
-            border-right: 30px solid transparent ;
-            border-bottom: 50px solid #FFFFFF ;
+        // TO-DO 
+        // TO change the bottom position of decoration box
+
+        .decoration-img{
+            object-fit: cover;
         }
 
-        .triangle-two {
-
-        }
     }
 }
