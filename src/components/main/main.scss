@@ -7,13 +7,36 @@ $decorationLinesWidth: 100px;
     background-color: $backgroundColor;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
+
+    .vertical-strip {
+        // background-color: chartreuse;
+        // rotate: -90deg;
+        position: absolute;
+        height: 100vh;
+        // z-index: 1;
+        width: 7%;
+        top: 0;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left:1px $lightTeal solid;
+        border-right: 1px $lightTeal solid;
+
+        .vertical-text {
+            rotate: -90deg;
+            color: $grey;
+            font-size: 60px;
+        }
+    }
 
     .component-container {
         height: calc(100vh - $navbarHeight);
         width: calc(100vw - $decorationLinesWidth - 200px);
         position: absolute;
         top: 80px;
-        left: 50px;
+        left: calc(7% + 28px);
         margin-left: 100px;
         overflow: hidden;
     }

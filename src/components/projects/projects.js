@@ -5,11 +5,6 @@ import './projects.css'
 function Projects () {
     return (
         <div className='projects-container'>
-            <div className='vertical-strip'>
-                <div className='vertical-text'>
-                    PROJECTS
-                </div>
-            </div>
             <div className='heading-carousel-container'>
                 <div className='heading-container'>
                     <Header heading= {'PROJECTS'} />
