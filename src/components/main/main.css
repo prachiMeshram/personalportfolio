@@ -23,10 +23,13 @@
 }
 .main .component-container {
   height: calc(100vh - 85px);
-  width: calc(100vw - 100px - 200px);
+  width: calc(100vw - 100px - 100px);
   position: absolute;
   top: 80px;
-  left: calc(7% + 28px);
+  left: 28px;
   margin-left: 100px;
-  overflow: hidden;
+  overflow: auto;
+}
+.main .component-container::-webkit-scrollbar {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

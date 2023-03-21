@@ -1,6 +1,6 @@
 .home-container {
   width: 100%;
-  height: calc(100vh - 170px);
+  height: 100%;
   display: flex;
 }
 .home-container .text-box {

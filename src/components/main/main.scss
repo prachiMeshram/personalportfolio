@@ -33,11 +33,15 @@ $decorationLinesWidth: 100px;
 
     .component-container {
         height: calc(100vh - $navbarHeight);
-        width: calc(100vw - $decorationLinesWidth - 200px);
+        width: calc(100vw - $decorationLinesWidth - 100px);
         position: absolute;
         top: 80px;
-        left: calc(7% + 28px);
+        left: 28px;
         margin-left: 100px;
-        overflow: hidden;
+        overflow: auto;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
     }
 }

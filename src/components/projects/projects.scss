@@ -1,11 +1,6 @@
 @import '../../styles/colors.scss';
 
 .projects-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: rgb(198, 160, 114);
     height: 100%;
     width: 100%;
     color: whitesmoke ;
@@ -21,5 +16,12 @@
         .project-carousel-container {
             background-color: darkgray;
         }
+    }
+
+    .projects-carousel-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

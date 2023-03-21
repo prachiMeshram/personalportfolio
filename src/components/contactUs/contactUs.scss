@@ -3,10 +3,9 @@
 .contactUs-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     color: $lightGray;
     padding-left: 60px;
+    height: 100%;
 
     .getInTouch-container{
         display: flex;
@@ -14,6 +13,7 @@
         align-items: flex-start;
         margin-top: 20px;
         padding: 30px;
+        height: fit-content;
         width: 30%;
         background-image: linear-gradient(#151515, #374645);
         border-left: 1px $darkTeal solid;
@@ -64,7 +64,6 @@
             .inputBox{
                 height: 5vh;
                 width: 90%;
-                margin-left: 25px;
                 border-radius: 5px;
                 background-color: $lightGray;
             }
@@ -72,7 +71,6 @@
             .message-input {
                 height: 10vh;
                 width: 90%;
-                margin-left: 25px;
                 border-radius: 5px;
                 background-color: $lightGray;
             }

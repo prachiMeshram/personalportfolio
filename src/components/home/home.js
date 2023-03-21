@@ -16,11 +16,11 @@ function Home() {
             <div className="icon-container">
                 <div className="icons"></div>
             </div>
-            <div className="decoration-box">
+            {/* <div className="decoration-box">
                 <img src={decorationImg} className="decoration-img"/>
-                {/* <div className="triangle-one"></div>
-                <div className="triangle-two"></div> */}
-            </div>
+                <div className="triangle-one"></div>
+                <div className="triangle-two"></div>
+            </div> */}
         </div>
     )
 }

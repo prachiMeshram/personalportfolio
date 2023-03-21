@@ -1,9 +1,4 @@
 .projects-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background-color: rgb(198, 160, 114);
   height: 100%;
   width: 100%;
   color: whitesmoke;
@@ -18,4 +13,10 @@
 }
 .projects-container .heading-carousel-container .project-carousel-container {
   background-color: darkgray;
+}
+.projects-container .projects-carousel-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=projects.css.map */

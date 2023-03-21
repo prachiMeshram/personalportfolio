@@ -20,18 +20,15 @@ function Main() {
             
             {/* {navBar} */}
             <Navbar/>
-            <div className='vertical-strip'>
-                <div className='vertical-text'>
-                    PROJECTS
-                </div>
-            </div>
+            
             {/* {Components} */}
             <div className="component-container">
+                <Home />
                 <AboutMe />
-                {/* <Education/> */}
-                {/* <ContactUs /> */}
-                {/* <Home /> */}
-               {/* <Projects /> */}
+                <Education/>
+                <ContactUs />
+                
+               <Projects />
             </div>
             {/* {socialIcons} */}
             <SocialIcons/>

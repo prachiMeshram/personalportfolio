@@ -16,15 +16,15 @@ function ContactUs () {
             <div className='contactForm-container'>
                 <div className='name ques-container'>
                     <div className='name input-title'>Name</div>
-                    <div className='name-input inputBox'></div>
+                    <input className='name-input inputBox'></input>
                 </div>
                 <div className='email ques-container'>
                     <div className='email input-title'>Email</div>
-                    <div className='email-input inputBox'></div>
+                    <input className='email-input inputBox'></input>
                 </div>
                 <div className='message ques-container'>
                     <div className='message input-title'>Message</div>
-                    <div className='message-input'></div>
+                    <textarea className='message-input'></textarea>
                 </div>
                 <div className='button-container' >
                     <div className='sendMessage-button'>
