@@ -1,0 +1,48 @@
+@import '../../../../styles/colors.scss';
+
+.porCard-container{
+    color: $lightGray;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+    width: 85%;
+    margin-bottom: 50px;
+
+    &.odd{
+        flex-direction: row-reverse;
+    }
+
+    .leftCard-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 15px;
+        // background-color: rgb(0, 255, 140);
+        .position {
+
+        }
+
+        .image-container {
+            width: 80%;
+            background-color: grey;
+            height: 75%;
+        }
+    }
+
+    .rightCard-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .organisation {
+
+        }
+
+        .text-container {
+            text-align: left;
+        }
+    }
+}

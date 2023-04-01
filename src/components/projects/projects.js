@@ -14,21 +14,15 @@ function Projects () {
             <div className='projects-carousel-container'>
                 <Carousel>
                     <CarouselItem>
-                        <div style={{width: "100%", height: "100%"}}>
-                            <Card cardObj={{image: ProfilePic, position:"1", org: "TechTable"}} />
-                        </div>
+                        <Card cardObj={{image: ProfilePic, position:"1", org: "TechTable"}} />
                     </CarouselItem>
 
                     <CarouselItem>
-                    <div style={{width: "100%", height: "100%"}}>
-                            <Card cardObj={{image: ProfilePic, position:"2", org: "TechTable"}} />
-                        </div>
+                        <Card cardObj={{image: ProfilePic, position:"2", org: "TechTable"}} />
                     </CarouselItem>
 
                     <CarouselItem>
-                    <div style={{width: "100%", height: "100%"}}>
                             <Card cardObj={{image: ProfilePic, position:"3", org: "TechTable"}} />
-                        </div>
                     </CarouselItem>
                 </Carousel>
             </div>

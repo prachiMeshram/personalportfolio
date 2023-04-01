@@ -12,6 +12,7 @@ import SocialIcons from "./socialIcons/socialIcons";
 import ProfilePic from "../../assets/Prachiclear.jpeg";
 import Carousel, { CarouselItem } from "../../ulElements/carousel/carousel";
 import Projects from "../projects/projects";
+import Pors from "../experience/pors/pors";
 
 
 function Main() {
@@ -26,9 +27,9 @@ function Main() {
                 <Home />
                 <AboutMe />
                 <Education/>
+                <Pors/>
+                <Projects />
                 <ContactUs />
-                
-               <Projects />
             </div>
             {/* {socialIcons} */}
             <SocialIcons/>

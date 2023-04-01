@@ -7,6 +7,7 @@
     height: 70vh;
     width: 40%;
     color: $lightGray;
+    overflow:visible;
 
     .image-container {
         height: 45%;
@@ -15,5 +16,14 @@
             height: 100%;
             object-fit: cover;
         }
+    }
+
+    .fullscreen-card{
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        // top: 0;
+        // left: 0;
+        background-color: red;
     }
 }

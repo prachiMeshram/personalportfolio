@@ -7,7 +7,7 @@ function Card ({cardObj}) {
     const [isCardOpen, setCardOpen] = useState(false);
 
     return (
-        <div className='card-container' onClick={setCardOpen(true)}>
+        <div className='card-container' onClick={()=>{setCardOpen(!isCardOpen); console.log("Full Screen true")}}>
             <div className='image-container'>
                 <img className='image' src= {cardObj.image}></img>
             </div>

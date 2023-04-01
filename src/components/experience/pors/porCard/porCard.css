@@ -1,0 +1,33 @@
+.porCard-container {
+  color: #EAEAEA;
+  display: flex;
+  justify-content: center;
+  height: 35vh;
+  width: 85%;
+  margin-bottom: 50px;
+}
+.porCard-container.odd {
+  flex-direction: row-reverse;
+}
+.porCard-container .leftCard-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.porCard-container .leftCard-container .image-container {
+  width: 80%;
+  background-color: grey;
+  height: 75%;
+}
+.porCard-container .rightCard-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.porCard-container .rightCard-container .text-container {
+  text-align: left;
+}/*# sourceMappingURL=porCard.css.map */

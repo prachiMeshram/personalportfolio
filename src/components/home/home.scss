@@ -13,7 +13,7 @@
         // justify-content: center;
         align-items: flex-start;
         position: relative;
-        top: 10%;
+        top: 20%;
         height: 100%;
         width: 80%;
 
@@ -42,6 +42,7 @@
 
         .description-text {
             width: 70%;
+            margin-top: 50px;
             color: #FFFFFF;
             text-align: left;
             font-weight: 500;
@@ -50,9 +51,62 @@
     }
 
     .icon-container {
-        // height: 50vh;
-        width: 20%;
-        background-color: rgb(45, 166, 166);
+        height: 100%;
+        width: 30%;
+        // background-color: rgb(45, 166, 166);
+
+        .icons{
+            height: 60px;
+            aspect-ratio: 1/1;
+            // width: 60px;
+            position: absolute;
+
+            .img {
+                height: 100%;
+                // aspect-ratio: 1/1;
+                object-fit: cover;
+            }
+
+            &.C {
+                height: 50px;
+                right: 200px;
+                bottom: 180px;
+            }
+            &.Cpp {
+                height: 80px;
+                right: 270px;
+                bottom: 250px;
+            }
+            &.Css {
+                right: 100px;
+                bottom: 200px;
+            }
+            &.Github {
+                right: 100px;
+                bottom: 300px;
+            }
+            &.Html {
+                height: 100px;
+                right: 250px;
+                bottom: 80px;
+            }
+            &.Js {
+                height: 40px;
+                width: 40px;
+                right: 310px;
+                bottom: 180px;
+            }
+            &.React {
+                height: 100px;
+                right: 100px;
+                bottom: 80px;
+            }
+            &.Typescript {
+                height: 50px;
+                right: 220px;
+                bottom: 350px;
+            }
+        }
     }
 
     .decoration-box {
