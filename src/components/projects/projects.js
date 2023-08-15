@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../../ulElements/header/header';
 import Carousel, {CarouselItem} from '../../ulElements/carousel/carousel';
-// import Card from '../../ulElements/card/card.js';
-import CardNew from '../../ulElements/cardNew/cardNew.js';
+import Card from '../../ulElements/card/card.js';
+// import CardNew from '../../ulElements/cardNew/cardNew.js';
 import ProfilePic from '../../assets/Prachiclear.jpeg';
 import './projects.css'
 
@@ -12,10 +12,12 @@ function Projects () {
             
             <Header heading={"PROJECTS"}/>
 
-            <CardNew title = 'CardNew'
+            {/* <CardNew title = 'CardNew'
             imageUrl=''
             body='rbhefbehybgrbchjdwnurhvdbbbficjzknqfuigces cyeqiyfcquievbfiyqevchbciqu fribvwnvwjvdoijqecmkaslncruvwurvbam,s hjwvbub'
-            />
+            /> */}
+
+            <Card cardObj={{image: ProfilePic, position:"1", org: "TechTable"}} />
             
             {/* <div className='projects-carousel-container'>
                 <Carousel>
